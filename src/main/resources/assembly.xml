@@ -1,0 +1,27 @@
+<assembly>
+    <id>zip-cta-asemply</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory>src/main/resources/</directory>
+            <outputDirectory>/CTA/resources/</outputDirectory>
+            <excludes>
+                <exclude>assembly.xml</exclude>
+            </excludes>
+        </fileSet>
+        <fileSet>
+            <directory>src/main/cfml</directory>
+            <outputDirectory>/CTA</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>target</directory>
+            <outputDirectory>/CTA/javaLibs</outputDirectory>
+            <includes>
+                <include>coldbox-app.jar</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+</assembly>

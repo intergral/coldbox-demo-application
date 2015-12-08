@@ -1,0 +1,12 @@
+{
+    "users" : [
+        { "username": "admin", "firstname" : "Fusion", "lastname" : "Reactor", "password" : "admin" }
+    ],
+    "products" : [
+        { "name" : "FusionReactor Mug - Black", "price": 9.99, "image": "mugBlack.jpg", "description": "Mug 2.0 - Based on our new brand colour scheme and modern style!." },
+        { "name" : "FusionReactor Mug - Blue", "price": 9.99, "image": "mugBlue.jpg", "description": "The classic FusionReactor Mug in all it's glory." },
+        { "name" : "Basketball Stress Ball", "price": 5.99, "image": "basketball.jpg", "description": "When the standard Stress Ball isn't enough." },
+        { "name" : "Football Stress Ball", "price": 6.99, "image": "football.jpg", "description": "Circular stress balls are too mainstream aren't they?" },
+        { "name" : "Stress Ball", "price": 4.99, "image": "stressball.jpg", "description": "Back to basics, you're buying a stress ball because you want a stress ball, nothing else." }
+    ]
+}
