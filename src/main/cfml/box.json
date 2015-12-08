@@ -6,11 +6,11 @@
     "directory":"",
     "createPackageDirectory":true,
     "packageDirectory":"",
-    "homepage":"",
+    "homepage":"http://www.fusion-reactor.com",
     "documentation":"",
     "repository":{
-        "type":"",
-        "url":""
+        "type":"git",
+        "url":"https://github.com/intergral/coldbox-demo-application"
     },
     "bugs":"",
     "slug":"",
@@ -38,12 +38,12 @@
     "projectURL":"",
     "license":[
         {
-            "type":"",
-            "url":""
+            "type":"Apache License, Version 2.0",
+            "url":"http://www.apache.org/licenses/LICENSE-2.0"
         }
     ],
     "contributors":[
-        
+        "Ben Donnelly <ben_donnelly@intergral.com>"
     ],
     "dependencies":{
         
